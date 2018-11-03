@@ -1,4 +1,4 @@
-# js-fuzeday-2018-starter-kit
+# ts-fuzeday-2018-starter-kit
 
 ## Project setup
 ```

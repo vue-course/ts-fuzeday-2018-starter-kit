@@ -1,5 +1,5 @@
 {
-  "name": "js-fuzeday-2018-starter-kit",
+  "name": "ts-fuzeday-2018-starter-kit",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,8 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@types/shopify-buy": "^1.4.2",
+    "shopify-buy": "^1.9.1",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",

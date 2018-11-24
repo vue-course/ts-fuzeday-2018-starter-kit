@@ -1,0 +1,4 @@
+export enum CART_GETTERS {
+    CHECKOUT = 'CHECKOUT',
+    PRODUCTS = 'PRODUCTS'
+}

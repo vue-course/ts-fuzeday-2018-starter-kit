@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@types/shopify-buy": "^1.4.2",
+    "element-ui": "^2.4.5",
     "shopify-buy": "^1.9.1",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
@@ -22,10 +23,23 @@
     "@vue/cli-plugin-unit-jest": "^3.0.0",
     "@vue/cli-service": "^3.0.0",
     "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-plugin-component": "^1.1.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "ts-jest": "^23.0.0",
     "typescript": "^3.0.0",
+    "vue-cli-plugin-element": "^1.0.0",
     "vue-template-compiler": "^2.5.17"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "component",
+        {
+          "libraryName": "element-ui",
+          "styleLibraryName": "theme-chalk"
+        }
+      ]
+    ]
   }
 }

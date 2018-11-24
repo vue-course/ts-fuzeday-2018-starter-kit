@@ -1,4 +1,4 @@
-# js-fuzeday-2018-starter-kit
+# black-fuzeday shop
 
 ### requirements:
 **Main products gallary page** includes:

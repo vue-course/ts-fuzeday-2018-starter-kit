@@ -5,3 +5,30 @@ h1, h3 {
 a {
   color: #fe885f;
 }
+
+.price {
+  font-size: 16px;
+  font-weight: 500;
+  color: #999;
+}
+
+.bottom {
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  padding: 0;
+  float: right;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.el-col {
+  margin-top: 20px;
+}

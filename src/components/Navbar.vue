@@ -4,8 +4,21 @@
 		<router-link to="/">Home</router-link>
 		|
 		<router-link to="/help">Help</router-link>
+		<div>Items in cart: {{products.length}}</div>
 	</div>
 </template>
+
+<script lang="ts">
+	import { Component, Vue, Prop } from 'vue-property-decorator';
+	import {Getter, Action} from 'vuex-class';
+
+	@Component
+	export default class NavBar extends Vue {
+
+		@Getter('products') products!: Array<any>
+
+	}
+</script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">

@@ -6,14 +6,21 @@
 </template>
 <script lang="ts">
     import {Component, Vue} from "vue-property-decorator";
-    import Navbar from "./components/Navbar.vue";
-
+	import Navbar from "./components/Navbar.vue";
+	
+	import {Action} from 'vuex-class';
+	
     @Component({
         components: {
             Navbar,
         },
     })
     export default class App extends Vue {
+        @Action('fetchAction') private fetchProducts!: Function;
+
+		created() {
+			this.fetchProducts();
+		}
     }
 </script>
 <style lang="scss" scoped>
